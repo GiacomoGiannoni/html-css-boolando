@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FF6900;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left:0;
+    width: 100%;
+}
+
+header .topbar {
+    height: 80px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header .topbar > div {
+    padding: 10px;
+}
+
+header .logo-column {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .login-column {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.login-column img {
+    justify-content: center;
+}
+
+header .menu-column {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .menu-column ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header .menu-column li {
+    padding: 0 5px;
+}
+
+.logo-column .logo{
+    width: 100px;
+}
