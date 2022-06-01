@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*header*/
+
 header {
     background-color: #FF6900;
     position: fixed;
@@ -59,10 +61,33 @@ header .menu-column ul {
     list-style: none;
 }
 
-header .menu-column li {
+header .menu-column a {
     padding: 0 5px;
+    color: white;
+    text-decoration: none;
 }
 
 .logo-column .logo{
     width: 100px;
 }
+
+.login-column i{
+    padding: 5px;
+    color: white;
+}
+
+/*header*/
+
+/*main*/
+main{
+    padding-top: 85px;
+}
+
+section{
+    width: 1200px;
+    height: 1200px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+/*main*/
