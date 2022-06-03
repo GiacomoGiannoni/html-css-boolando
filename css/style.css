@@ -83,11 +83,89 @@ main{
     padding-top: 85px;
 }
 
-section{
+.container{
     width: 1200px;
     height: 1200px;
     border: 1px solid black;
-    margin: auto;
+    margin: auto;  
 }
+
+.product{
+    width: calc(97% / 3);
+    display: inline-block;
+    text-align: left;
+    margin-left: 7px;
+}
+
+.container-img{
+    position: relative;
+}
+
+.container-img img{
+    width: 100%;
+}
+
+.product .container-img .img-2{
+    display: none;
+}
+
+
+
+.cuore{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.cuore:hover{
+    color: red;
+}
+
+.scount{
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+}
+
+.scount .targhetta-red{
+    background-color: red;
+    padding: 5px;
+    color: #fff;
+}
+
+.scount .targhetta-green{
+    background-color: green;
+    padding: 5px;
+    color: #fff;
+}
+
+.container-text a{
+    text-decoration: none;
+}
+
+.container-text .marca{
+    color: gray;
+    text-decoration: none;
+}
+
+.container-text .type-product{
+    text-decoration: none;
+    color: black;
+}
+
+.container-text a .discount-price{
+    color: red;
+    margin-right: 5px;
+}
+
+.container-text a .original-price{
+    color: black;
+    text-decoration: line-through;
+}
+
+
 
 /*main*/
