@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'whitney', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+}
+
 /*header*/
 
 header {
@@ -85,8 +89,7 @@ main{
 
 .container{
     width: 1200px;
-    height: 1200px;
-    border: 1px solid black;
+    height: 1300px;
     margin: auto;  
 }
 
@@ -95,21 +98,32 @@ main{
     display: inline-block;
     text-align: left;
     margin-left: 7px;
+    margin-bottom: 40px;
 }
 
 .container-img{
     position: relative;
 }
 
+.conteiner-img .img-1 .img-2{
+    position: absolute;
+}
+
 .container-img img{
     width: 100%;
+}
+
+.product .img-1:hover{
+    display: none;
 }
 
 .product .container-img .img-2{
     display: none;
 }
 
-
+.product .img-2:hover{
+    display: block;
+}
 
 .cuore{
     position: absolute;
@@ -166,6 +180,63 @@ main{
     text-decoration: line-through;
 }
 
-
-
 /*main*/
+
+/*footer*/
+footer {
+    background-color: black;
+    z-index: 9999;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer .bottombar {
+    height: 80px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    color: #fff;
+}
+
+footer .topbar > div {
+    padding: 10px;
+}
+
+footer .menu-sx {
+    width: 50%;
+    height: 100%;
+}
+
+footer .menu-sx ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+footer .menu-sx a {
+    margin-right: 5px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer .social-dx {
+    height: 100%;
+    width: 50%;
+    text-align: right;
+    padding: 15px;
+}
+
+.social-column i{
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.menu-sx .info{
+    margin-top: 10px;
+}
