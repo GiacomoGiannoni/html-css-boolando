@@ -113,16 +113,17 @@ main{
     width: 100%;
 }
 
-.product .img-1:hover{
+.container-img .img-2{
     display: none;
 }
 
-.product .container-img .img-2{
+.container-img:hover .img-1{
     display: none;
 }
 
-.product .img-2:hover{
+.container-img:hover .img-2{
     display: block;
+    display: inline-block;
 }
 
 .cuore{
